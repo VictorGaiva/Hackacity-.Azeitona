@@ -1,6 +1,5 @@
 <?php
 echo $this->Html->css('nti');
-echo $this->Html->css('sigadufms');
 echo $this->Html->script('vendor');
 echo $this->Html->script('nti');
 ?>
@@ -8,7 +7,7 @@ echo $this->Html->script('nti');
     <div class="container-fluid ">
         <div class="navbar-header ">
             <a class="navbar-brand nome-sistema" href="#">
-                <span class="hidden-xs">SIGA-ADUFMS</span>
+                <span class="hidden-xs">Coopera_Mais</span>
             </a>
         </div>
     </div>

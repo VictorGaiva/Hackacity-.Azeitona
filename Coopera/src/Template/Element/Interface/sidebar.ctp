@@ -6,28 +6,33 @@ echo $this->Html->script('nti');
 
 $pageNames = array(
     [
-        "caminho" => "/pages",
-        "nome"    => "Inicio",
+        "caminho" => "/categories",
+        "nome"    => "Categorias",
         "icone"   => "home"
     ],
     [
-        "caminho" => "/affiliates",
-        "nome" => "Filiados",
+        "caminho" => "/clients",
+        "nome" => "Clientes",
         "icone" => "users"
     ],
     [
-        "caminho" => "/reports",
-        "nome" => "Relatórios",
+        "caminho" => "/collaborators",
+        "nome" => "Colaboradores",
         "icone" => "list"
     ],
     [
-        "caminho" => "/actions",
-        "nome" => "Ações",
+        "caminho" => "/registrations",
+        "nome" => "Inscrições",
         "icone" => "list"
     ],
     [
-        "caminho" => "/contributions",
-        "nome" => "Contribuições",
+        "caminho" => "/schedules",
+        "nome" => "Horários",
+        "icone" => "list"
+    ],
+    [
+        "caminho" => "/workshops",
+        "nome" => "Oficinas",
         "icone" => "list"
     ]
 );
